@@ -1,0 +1,8 @@
+/* Design system entry — import order matters (tokens → base → motion → layout → ui → features) */
+@import './tokens.css';
+@import './base.css';
+@import './animations.css';
+@import './layout.css';
+@import './ui.css';
+@import './home.css';
+@import './pages.css';

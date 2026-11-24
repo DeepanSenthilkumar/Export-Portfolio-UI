@@ -1,0 +1,77 @@
+/* ============================================================
+   SHIPYON DESIGN TOKENS
+   Palette derived from the subject: ocean freight + agri trade.
+   Dominant: signal cyan #10b2ce on white, deep-ocean navy fields,
+   harvest amber + leaf green accents, full semantic set.
+   ============================================================ */
+:root {
+  /* Brand family (dominant) */
+  --brand: #10b2ce;
+  --brand-strong: #0b8fa6;
+  --brand-soft: #7fe3f4;
+  --brand-tint: rgba(16, 178, 206, 0.12);
+  --ocean-900: #04222b;
+  --ocean-800: #052e3a;
+  --ocean-700: #083a47;
+  --ocean-600: #0d4d5e;
+
+  /* Accents (full chroma, subject-derived) */
+  --amber: #ffb020;        /* harvest / export-grade badge */
+  --amber-deep: #d98a00;
+  --leaf: #2fbf71;         /* agriculture / freshness */
+  --coral: #ff6b5e;        /* spice heat / highlights */
+
+  /* Semantic */
+  --success: #16a34a;
+  --success-tint: #e8f7ee;
+  --warning: #f59e0b;
+  --warning-tint: #fef3e2;
+  --danger: #e5484d;
+  --danger-tint: #fdecec;
+  --info: #10b2ce;
+  --info-tint: #e6f7fb;
+
+  /* Neutrals — cool, tinted toward the brand */
+  --paper: #ffffff;
+  --surface: #f4fafc;
+  --surface-2: #e9f5f9;
+  --aqua-100: #e0f5fa;
+  --aqua-200: #b9e9f3;
+  --ink: #0f2e38;
+  --body-c: #45626d;
+  --muted: #7c97a1;
+  --line: #dcecf2;
+  --line-strong: #c2dfe8;
+  --scrim: rgba(4, 34, 43, 0.62);
+
+  /* Gradients */
+  --grad-hero: linear-gradient(135deg, #04222b 0%, #083a47 48%, #0d6d84 100%);
+  --grad-brand: linear-gradient(120deg, #10b2ce 0%, #0b8fa6 60%, #0d4d5e 100%);
+  --grad-fresh: linear-gradient(160deg, #ffffff 0%, #e0f5fa 52%, #b9e9f3 100%);
+  --grad-amber: linear-gradient(120deg, #ffb020, #ff6b5e);
+  --grad-mesh:
+    radial-gradient(42% 55% at 12% 18%, rgba(16, 178, 206, 0.28) 0%, transparent 70%),
+    radial-gradient(38% 48% at 88% 12%, rgba(255, 176, 32, 0.16) 0%, transparent 70%),
+    radial-gradient(50% 60% at 78% 92%, rgba(47, 191, 113, 0.14) 0%, transparent 72%);
+
+  /* Typography */
+  --font-display: 'Outfit', 'Inter', system-ui, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Shape & depth */
+  --r-sm: 10px;
+  --r-md: 14px;
+  --r-lg: 20px;
+  --r-xl: 28px;
+  --r-pill: 999px;
+  --shadow-sm: 0 2px 10px rgba(8, 58, 71, 0.07);
+  --shadow-md: 0 10px 30px rgba(8, 58, 71, 0.11);
+  --shadow-lg: 0 24px 60px rgba(8, 58, 71, 0.18);
+  --shadow-brand: 0 12px 32px rgba(16, 178, 206, 0.32);
+
+  /* Layout */
+  --container: 1200px;
+  --header-h: 76px;
+  --section-pad: clamp(64px, 9vw, 110px);
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
